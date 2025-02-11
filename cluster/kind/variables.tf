@@ -8,11 +8,11 @@ variable "github_token" {
 variable "github_org" {
   description = "GitHub organization"
   type        = string
-  default     = ""
+  default     = "cyfu"
 }
 
 variable "github_repository" {
   description = "GitHub repository"
   type        = string
-  default     = ""
+  default     = "gitops-flux-bootstrap"
 }

@@ -1,4 +1,9 @@
 .terraform
 terraform.tf*
 .terraform.lock.hcl
+
+# terraform plan file
 myplan
+
+# terraform output kind cluster config file
+flux-e2e-config
